@@ -150,3 +150,55 @@ header .jumbotron p .btn:active {
     padding: 20px 0;
   }
 }
+.clients {
+  background-color: #fafafa;
+  text-align: center;
+}
+.clients h1 {
+  font-size: 60px;
+  padding-top: 50px;
+}
+.clients h1 span {
+  font-weight: 600;
+}
+.clients h5 {
+  font-size: 22px;
+  color: #c4c4c4;
+}
+.clients .comment_clients {
+  margin-top: 50px;
+}
+.clients .comment_clients .client_first,
+.clients .comment_clients .client_second {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.clients .comment_clients .client_first .photo_client,
+.clients .comment_clients .client_second .photo_client {
+  align-self: center;
+}
+.clients .comment_clients .client_first .photo_client img,
+.clients .comment_clients .client_second .photo_client img {
+  border-radius: 50%;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.clients .comment_clients .client_first .comment_client,
+.clients .comment_clients .client_second .comment_client {
+  text-align: left;
+  flex-basis: 500px;
+  align-self: center;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  padding: 25px;
+}
+.clients .comment_clients .client_first .comment_client a,
+.clients .comment_clients .client_second .comment_client a {
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  .clients .photo_client {
+    display: none;
+  }
+}

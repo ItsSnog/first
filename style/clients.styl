@@ -1,0 +1,36 @@
+.clients
+	background-color #fafafa
+	text-align center
+	h1
+		font-size 60px
+		padding-top 50px
+		span
+			font-weight 600
+	h5
+		font-size 22px
+		color #c4c4c4
+	.comment_clients
+		margin-top 50px
+		.client_first, .client_second
+			margin-bottom 50px
+			display flex
+			justify-content center
+			.photo_client
+				align-self center
+				img
+					border-radius 50%
+					margin-right 40px
+					margin-left 40px
+			.comment_client
+				text-align left
+				flex-basis 500px
+				align-self center
+				background-color white
+				border 1px solid #f2f2f2
+				padding 25px
+				a
+					text-decoration none
+@media screen and (max-width: 600px)
+	.clients
+		.photo_client
+			display none
