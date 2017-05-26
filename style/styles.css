@@ -1,0 +1,52 @@
+header {
+  background: url("../img/bgheader.jpg");
+  background-size: 100% 100%;
+}
+header .navbar-header .icon-bar {
+  background: #fff;
+}
+header .navbar-brand img {
+  float: left;
+  margin-right: 10px;
+}
+header .navbar-brand a {
+  position: relative;
+  top: -10px;
+  color: #fff;
+}
+header .navbar-brand a:hover {
+  color: #fff;
+}
+header .nav li {
+  margin: 15px 0px;
+  float: left;
+}
+header .nav li a {
+  color: #fff;
+}
+header .nav li a:hover {
+  background: none;
+}
+header .jumbotron {
+  margin-top: 50px;
+  background: none;
+}
+header .jumbotron h1,
+header .jumbotron h3 {
+  color: #fff;
+}
+header .jumbotron p {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+header .jumbotron p .btn {
+  color: #fff;
+  padding: 10px 35px;
+  border: 2px solid #fff;
+}
+header .jumbotron p .btn:hover {
+  text-shadow: 1px 1px 1px #fff;
+}
+header .jumbotron p .btn:active {
+  border: 1px solid;
+}
